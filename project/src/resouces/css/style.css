@@ -1,10 +1,10 @@
 /* Header */
 
-
 .aling_center{
     padding-top: 10px;
     text-align: center;
 }
+
 /* Header end */
 
 /* Content */
@@ -29,11 +29,16 @@ section{
 h4{
     display: inline-block;
     margin-bottom: 12px;
+    letter-spacing: 4px;
 }
 table{
+    width: 100%;
     text-align: left;
 }
 table tr td{
-    display: block;
+    display: block
 }
-
+table tr td span{
+    margin-left: 50%;
+    color: red;
+}
