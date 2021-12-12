@@ -36,9 +36,14 @@ table{
     text-align: left;
 }
 table tr td{
+    margin-top: 2%;
     display: block
 }
-table tr td span{
-    margin-left: 50%;
+p{
+    display: block;
+    margin-bottom: 10px;
+}
+span{
+
     color: red;
 }
