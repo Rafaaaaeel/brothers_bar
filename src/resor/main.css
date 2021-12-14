@@ -43,7 +43,9 @@ table tr td{
     display: block
 }
 p{
-    display: block;
+    display: inline-block;
+    margin-left: 1%;
+    margin-bottom: 2%;
 }
 span{
     margin-left: 10px;
