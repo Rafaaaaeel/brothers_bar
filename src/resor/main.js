@@ -5,7 +5,7 @@ window.onload = function(){
 
     containerClickZone.forEach((e)=>{
         e.addEventListener("click", ()=>{
-            e.querySelector("table").style.visibility = e.querySelector("table").style.visibility === "visible" ? 'collapse' : 'visible'
+            e.querySelector("table").style.display = e.querySelector("table").style.display === "none" ? 'initial' : 'none'
         })
     })
 }

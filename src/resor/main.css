@@ -30,9 +30,9 @@ h4{
     letter-spacing: 4px;
 }
 table{
+    display: none;
     width: 100%;
     text-align: left;
-    visibility: collapse;
     transition: 2s;
 }
 table tr td{
