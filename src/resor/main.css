@@ -13,6 +13,7 @@ section{
     text-align: center;
 }
 .container{
+    transition: 2s;
     width: 350px;
     display: inline-block;
     border-radius: 5px;
@@ -30,15 +31,13 @@ h4{
     letter-spacing: 4px;
 }
 table{
-    display: none;
     width: 100%;
-    text-align: left;
-    transition: 2s;
+    text-align: left;  
 }
 table tr td{
     margin-left: 2%;
     margin-top: 2%;
-    display: block
+    display: block;
 }
 p{
     display: inline-block;
