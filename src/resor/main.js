@@ -4,8 +4,7 @@ window.onload = function()
     const containerClickZone = document.querySelectorAll(".container")
     const table = document.querySelectorAll("table")
     const td = document.querySelectorAll("td")
-    const closeArrowAction = document.querySelectorAll(".close_button")
-
+    const closeArrowAction = document.getElementsByClassName(".close_button")
 
     td.forEach((e)=>
     {
