@@ -46,7 +46,7 @@ section
     margin-left: 30%;
     transform: rotate(0.5turn);
     -webkit-transform: rotate(0.5turn);
-    transition: ease-in-out 0.1s;
+    transition: ease-in-out 0.16s ;
 }
 
 h4
