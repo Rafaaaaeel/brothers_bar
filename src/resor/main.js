@@ -1,6 +1,5 @@
 window.onload = function()
 {
-
     const containerClickZone = document.querySelectorAll(".container")
     const table = document.querySelectorAll("table")
     const td = document.querySelectorAll("td")
@@ -14,7 +13,7 @@ window.onload = function()
     table.forEach((e)=>
     {
         e.style.marginLeft = "2%"
-        e.style.display = "none"   
+        e.style.display = "none" 
     })
 
     containerClickZone.forEach((e)=>
