@@ -38,7 +38,8 @@ section
     border-radius: 7px;
     background-color: rgb(34, 34, 34);
 }
-.container_content{
+.container_content
+{
     background-color: rgb(255, 255, 255);
 }
 .close_button
@@ -82,7 +83,8 @@ p
     margin-bottom: 2%;
 }
 
-span{
+span
+{
     margin-left: 10px;
     color: red;
 }
@@ -97,7 +99,8 @@ footer
 
 @media (max-width: 365px) {
     
-    .header_content img{
+    .header_content img
+    {
         width: 190px;
     }
 
@@ -107,7 +110,8 @@ footer
     }
     
 }
-@media (max-width: 345px) {
+@media (max-width: 345px) 
+{
     
     .header_content img{
         width: 175px;

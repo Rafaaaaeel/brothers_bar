@@ -23,7 +23,6 @@ window.onload = function()
             {
                 e.querySelector(".close_button").style.transform = e.querySelector(".close_button").style.transform === "rotate(0deg)" ? "rotate(180deg)" : "rotate(0)"
             }
-            
         })
     })
 }
