@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     overflow-x:hidden; 
+    background-attachment: fixed;
 }
 /* DELETAR DEPOIS DA FESTA 01/01*/
 body
@@ -11,7 +12,7 @@ body
     /*Atualzadp*/
     background-image: url("/brothers_bar/src/resor/img/fundo.jpg");
     background-position: center;
-    background-attachment: fixed;
+    
 }
 .container_title
 {
