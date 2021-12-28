@@ -7,19 +7,3 @@
     
 }
 /* DELETAR DEPOIS DA FESTA 01/01*/
-body
-{
-    /*Atualzadp*/
-    background-image: url("/brothers_bar/src/resor/img/fundo.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    
-}
-.container_title
-{
-    color: white;
-    border-radius: 7px;
-    background-color: rgb(42, 69, 189);
-}
-
