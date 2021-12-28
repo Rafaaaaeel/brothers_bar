@@ -5,4 +5,19 @@
     font-family: 'Poppins', sans-serif;
     overflow-x:hidden; 
 }
+/* DELETAR DEPOIS DA FESTA 01/01*/
+body
+{
+    background-image: url("/src/resor/img/fundo.jpg");
+    /*background-color: #FDBB31;*/
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(px);
+}
+.container_title
+{
+    color: white;
+    border-radius: 7px;
+    background-color: rgb(42, 69, 189);
+}
 
