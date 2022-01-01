@@ -84,6 +84,20 @@ p
     margin-bottom: 2%;
 }
 
+
+/* Tag P do container de COMBO DE WISKY
+ * 
+ * Usando esse comando para poder descer o texto para a linha
+ * inferior da box
+ *
+ * pensar em um solução posteriormente e remover essa linha de codigo
+ */
+    
+#ajusting{
+    display: block;
+}
+/* Remover o codigo acima  */
+
 span
 {
     margin-left: 10px;
