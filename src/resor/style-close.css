@@ -1,10 +1,12 @@
-.container_close_page{ 
+.container_close_page
+{ 
     display: flex;
     justify-content: center;
    
 }
 
-.close_web {
+.close_web 
+{
     color: rgb(0, 0, 0);
     margin-top: 100%;
 }
