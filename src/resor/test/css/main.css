@@ -1,5 +1,8 @@
 /* Header */
 
+body{
+    background-color: cornflowerblue;
+}
 
 .header_content img
 {
@@ -12,12 +15,24 @@
     text-align: center;
 }
 
-hr{
+.subTitle{
     width: 80%;
-    margin-left: 12%;
+    height: 50px;
+    margin-left: 10%;
 }
-.line span{
+
+.subTitle span{
     color: black;
+}
+
+.line{
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+    height: 1px;
+    background-color: black;
+
+    
 }
 /* Header end */
 
@@ -30,11 +45,11 @@ section
 .container
 {
     width: 350px;
-    display: grid;
-    align-content: center;
+    display: inline-block;
     border-radius: 5px;
     margin-bottom: 8%;
     box-shadow: 0em 0.3em 0.4em 0.1em rgb(238, 238, 238);
+    position: static;
 }
 .container_title
 {
@@ -90,19 +105,6 @@ p
 }
 
 
-/* Tag P do container de COMBO DE WISKY
- * 
- * Usando esse comando para poder descer o texto para a linha
- * inferior da box
- *
- * pensar em um solução posteriormente e remover essa linha de codigo
- */
-    
-#ajusting
-{
-    display: block;
-}
-/* Remover o codigo acima  */
 
 span
 {
@@ -176,8 +178,16 @@ footer
     {
         color: white;
     }
-    .line span{
+    .subTitle h4{
         color: white;
+    }
+    
+    .line{
+        position: absolute;
+        z-index: 1;
+        width: 80%;
+        height: 1px;
+        background-color: white;
     }
     
 }
