@@ -113,9 +113,9 @@ span
 }
 
 /* footer */
-footer
+footer p
 {
-    opacity: 70%;
+    opacity: 50%;
 }
 
 /* Media frames*/
