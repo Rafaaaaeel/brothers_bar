@@ -2,7 +2,7 @@ window.onload = function()
 {
     const containerClickZone = document.querySelectorAll(".container")
     const table = document.querySelectorAll("table")
-    const closeArrowAction = document.querySelectorAll(".close_button")
+    
 
     table.forEach((e)=>
     {
