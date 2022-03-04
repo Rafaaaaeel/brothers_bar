@@ -19,6 +19,7 @@
     width: 80%;
     height: 50px;
     margin-left: 10%;
+    overflow-y: hidden;
 }
 
 .subTitle span{
