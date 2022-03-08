@@ -1,0 +1,36 @@
+
+/*Section news content ON News*/
+.news_content{
+    width: 100%;
+    height: 400px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.items_news{
+    width: 100%;
+    margin-top:2%;
+}
+
+.items{
+    display:flex;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+.item{
+    flex:none;
+    width: 100%;
+    height: 400px;
+    scroll-snap-align: start;
+    pointer-events: none;
+}
+#carrosel-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/*Section news content ON News END */
