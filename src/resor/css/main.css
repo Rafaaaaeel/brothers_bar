@@ -1,6 +1,8 @@
 /* Header */
 
-
+header{
+    background-color: rgb(27, 27, 27);
+}
 
 .header_content img
 {
@@ -18,6 +20,7 @@
 .subTitle{
     width: 80%;
     height: 50px;
+    margin-top: 5%;
     margin-left: 10%;
     overflow-y: hidden;
 }
@@ -42,25 +45,29 @@ section
 {
     margin-top: 10%;
     text-align: center;
+    
 }
 .container
 {
     width: 350px;
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-bottom: 8%;
     box-shadow: 0em 0.3em 0.4em 0.1em rgb(238, 238, 238);
     position: static;
+    
 }
 .container_title
 {
     color: white;
     border-radius: 7px;
     background-color: rgb(34, 34, 34);
+    
 }
 .container_content
 {
     background-color: rgb(255, 255, 255);
+
 }
 .close_button
 {
@@ -84,6 +91,7 @@ h4
 
 table
 {
+    transition: 0.2s ease-in-out;
     width: 100%;
     margin-left: 2%;
     text-align: left;  
