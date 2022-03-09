@@ -24,7 +24,7 @@
     width: 100%;
     height: 300px;
     scroll-snap-align: start;
-    pointer-events: none;
+
 }
 #carrosel-img{
     object-fit: cover;
