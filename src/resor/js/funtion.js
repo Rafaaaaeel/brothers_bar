@@ -11,5 +11,3 @@ item.addEventListener('wheel', event => {
 
 
 
-
-
