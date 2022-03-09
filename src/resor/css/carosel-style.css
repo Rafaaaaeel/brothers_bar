@@ -12,6 +12,14 @@
     width: 100%;
 }
 
+#next-item{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 90%;
+    width: 25px;
+    transform: rotate(90deg);
+}
+
 .items{
     display:flex;
     overflow-x:scroll;
@@ -24,7 +32,6 @@
     width: 100%;
     height: 300px;
     scroll-snap-align: start;
-
 }
 #carrosel-img{
     object-fit: cover;
