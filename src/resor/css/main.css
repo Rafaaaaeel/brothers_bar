@@ -4,40 +4,13 @@
 
 .header_content img
 {
-    width: 210px;
+    width: 100px;
 }
 
 .aling_center
 {
     padding-top: 10px;
     text-align: center;
-}
-
-.carrosel-zone{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    min-width: 100vh;
-}
-
-.carrosel{
-    box-shadow: 2px 2px 4px black;
-    overflow: hidden;
-    height: 500px;
-    width: 500px;
-
-}
-.carrosel-container{
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    transform: translateX(0);
-
-}
-.img-carrosel{
-    object-fit: cover;
-    width: 500px;
-    height: 500px;
 }
 
 
