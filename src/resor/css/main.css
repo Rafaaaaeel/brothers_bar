@@ -159,6 +159,11 @@ footer p
         background-color: rgb(31, 30, 30);
     }
 
+    .header_content img
+    {
+        filter: invert(48%) sepia(0%) saturate(3207%) hue-rotate(130deg) brightness(100%) contrast(100%);
+    }
+
     .container_title
     {
         color: rgb(255, 255, 255);
