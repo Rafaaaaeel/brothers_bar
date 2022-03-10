@@ -1,9 +1,13 @@
 /* Header */
 
-header{
-    background-color: rgb(27, 27, 27);
-}
 
+
+.header_content{
+    position:fixed;
+    z-index: 1;
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+}
 .header_content img
 {
     position: relative;
@@ -23,27 +27,20 @@ header{
     margin-top: 5%;
     margin-left: 10%;
     overflow-y: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.568);
 }
 
 .subTitle span{
     color: black;
 }
 
-.line{
-    position: absolute;
-    z-index: 1;
-    width: 80%;
-    height: 1px;
-    background-color: black;
 
-    
-}
 /* Header end */
 
 /* Content */
 section
 {
-    margin-top: 10%;
+    margin-top: 5%;
     text-align: center;
     margin-right: 3%;
     margin-left: 3% ;
@@ -65,7 +62,7 @@ section
 }
 
 .reveal{
-    transform: translateY(20px);
+    transform: translateY(10px);
     opacity: 0.2;
     overflow-y: hidden;
 }

@@ -11,6 +11,7 @@ function reveal(){
         console.log(windowHeigh)
         var revealPoint = 10
 
+
         if(revealTop < windowHeigh - revealPoint){
             reveals[i].classList.add(`active`)
         }else{
