@@ -7,11 +7,21 @@
     z-index: 1;
     background-color: rgb(27, 27, 27);
     width: 100%;
+    transition: 0.5s;
 }
 .header_content img
 {
     position: relative;
     width: 100px;
+    height: 100%;
+}
+
+.sticky{
+    height: 50px;
+    transition: 0.5s ease;
+}
+.sticky img{
+    width: 40px;
 }
 
 .aling_center
