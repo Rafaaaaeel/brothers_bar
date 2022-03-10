@@ -1,6 +1,7 @@
 let item = document.querySelector(".items")
 const popupScreen = document.querySelector(".popup-screen")
 const closebtn = document.querySelector(".close-popup")
+const popupCookie = document.cookie.indexOf("popUpShow=")
 
 
 window.addEventListener("scroll", reveal)
@@ -33,6 +34,12 @@ item.addEventListener('wheel', event => {
 })
 
 
+if(popupCookie != -1){
+    popupScreen.style.display = "none"
+}else{
+    popupScreen.style.display = "flex"
+}
+
 window.addEventListener("load", () =>{
     setTimeout(()=>{
         popupScreen.classList.add("popupActive") 
@@ -41,5 +48,9 @@ window.addEventListener("load", () =>{
 
 closebtn.addEventListener("click", ()=>{
     popupScreen.classList.remove("popupActive")
-    document.cookie = "BaileDoAugusto; max-age=" + 24 * 60 * 60
+    document.cookie = "BaileDoAugusto=popUpShow; max-age=" + 24 * 60 * 60
 })
+
+
+console.log(popupCookie)
+
