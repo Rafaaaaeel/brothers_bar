@@ -55,7 +55,7 @@ if(popupCookie != -1){
 
 window.addEventListener("load", () =>{
     setTimeout(()=>{
-        popupScreen.classList.add("popupActivea") 
+        popupScreen.classList.add("popupActive") 
     }, 500)
 })
 
