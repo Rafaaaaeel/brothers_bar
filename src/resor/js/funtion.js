@@ -56,14 +56,11 @@ if(popupCookie != -1){
 window.addEventListener("load", () =>{
     setTimeout(()=>{
         popupScreen.classList.add("popupActive") 
-    }, 500)
+    }, 1000)
 })
 
 closebtn.addEventListener("click", ()=>{
     popupScreen.classList.remove("popupActive")
     document.cookie = "BaileDoAugusto=popUpShow; max-age=" + 24 * 60 * 60
 })
-
-
-console.log(popupCookie)
 
