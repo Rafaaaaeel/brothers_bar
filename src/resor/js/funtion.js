@@ -45,7 +45,7 @@ window.addEventListener("load", () =>{
 
 closebtn.addEventListener("click", ()=>{
     popupScreen.classList.remove("popupActive")
-    document.cookie = "BaileDoAugusto=popUpShow; max-age=" + 24 * 60 * 60
+    document.cookie = "BaileDoAugusto=popUpShow; max-age=" + 1 * 30 * 400
 })
 
 
