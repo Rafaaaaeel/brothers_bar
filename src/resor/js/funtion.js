@@ -29,5 +29,15 @@ item.addEventListener('wheel', event => {
     }
 })
 
+const popupScreen = document.querySelector(".popup-screen")
+const closebtn = document.querySelector(".close-popup")
 
+window.addEventListener("load", () =>{
+    setTimeout(()=>{
+        popupScreen.classList.add("popupActive") 
+    }, 500)
+})
 
+closebtn.addEventListener("click", ()=>{
+    popupScreen.classList.remove("popupActive")
+})
