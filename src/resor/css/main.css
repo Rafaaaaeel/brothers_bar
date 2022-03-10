@@ -143,7 +143,7 @@ footer p
     
     .header_content img
     {
-        width: 190px;
+        width: 90px;
     }
 
     .container
@@ -156,7 +156,7 @@ footer p
 {
     
     .header_content img{
-        width: 175px;
+        width: 80px;
     }
 
     .container
@@ -166,53 +166,4 @@ footer p
     
 }
 
-@media (prefers-color-scheme: dark){
-    body
-    {
-        background-color: rgb(31, 30, 30);
-    }
-
-    .header_content img
-    {
-        filter: invert(48%) sepia(0%) saturate(3207%) hue-rotate(130deg) brightness(100%) contrast(100%);
-    }
-
-    .container_title
-    {
-        color: rgb(255, 255, 255);
-        border-radius: 7px;
-        background-color: rgb(21, 21, 21);
-    }
-
-    .container
-    {
-        box-shadow: 0em 0.3em 0.4em 0.1em rgb(20, 20, 20);
-    }
-    .container_content
-    {
-        background-color: rgb(27, 27, 27);
-    }
-
-    table
-    {
-        background-color: rgb(27, 27, 27);
-    }
-
-    table tr td
-    {
-        color: white;
-    }
-    .subTitle h4{
-        color: white;
-    }
-    
-    .line{
-        position: absolute;
-        z-index: 1;
-        width: 80%;
-        height: 1px;
-        background-color: white;
-    }
-    
-}
 
