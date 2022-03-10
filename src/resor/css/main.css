@@ -34,6 +34,7 @@
     visibility: hidden;
     transition: 0.3s ease;
     transition-property: visibility;
+    -webkit-transition-property: visibility;
 }
 
 .popup-box{
@@ -46,6 +47,7 @@
     transform: scale(0);
     transition: 0.3s ease;
     transition-property: transform;
+    -webkit-transition-property: transform;
 }
 
 .popupActive{
@@ -64,6 +66,11 @@
     left: 5px;
     transition: 0.3s ease;
     transition-property: opacity;
+    -webkit-transition-property: opacity;
+}
+
+.close-popup:hover{
+    transform: rotat
 }
 
 .subTitle{

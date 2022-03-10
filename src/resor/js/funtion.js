@@ -1,4 +1,7 @@
 let item = document.querySelector(".items")
+const popupScreen = document.querySelector(".popup-screen")
+const closebtn = document.querySelector(".close-popup")
+
 
 window.addEventListener("scroll", reveal)
 
@@ -29,8 +32,6 @@ item.addEventListener('wheel', event => {
     }
 })
 
-const popupScreen = document.querySelector(".popup-screen")
-const closebtn = document.querySelector(".close-popup")
 
 window.addEventListener("load", () =>{
     setTimeout(()=>{
@@ -40,4 +41,5 @@ window.addEventListener("load", () =>{
 
 closebtn.addEventListener("click", ()=>{
     popupScreen.classList.remove("popupActive")
+    document.cookie = "BaileDoAugusto; max-age=" + 24 * 60 * 60
 })
