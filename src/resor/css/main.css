@@ -47,6 +47,8 @@ section
     text-align: center;
     margin-right: 3%;
     margin-left: 3% ;
+    overflow-y: hidden;
+
 }
 .container
 {
@@ -56,8 +58,24 @@ section
     margin-bottom: 8%;
     box-shadow: 0em 0.3em 0.4em 0.1em rgb(238, 238, 238);
     position: static;
+    transition: 0.3s cubic-bezier(0.86, -0.01, 0.82, 0.99);
+    overflow-y: hidden;
+
     
 }
+
+.reveal{
+    transform: translateY(20px);
+    opacity: 0.2;
+    overflow-y: hidden;
+}
+.active{
+    transform: translateY(0px);
+    opacity: 1;
+    overflow-y: hidden;
+
+}
+
 .container_title
 {
     color: white;

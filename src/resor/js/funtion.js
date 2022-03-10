@@ -1,5 +1,23 @@
 let item = document.querySelector(".items")
-let nextItem = document.getElementById("#next-item")
+
+window.addEventListener("scroll", reveal)
+
+function reveal(){
+    var reveals = document.querySelectorAll(".reveal")
+
+    for(var i = 0; i < reveals.length; i++){
+        var windowHeigh = window.innerHeight
+        var revealTop = reveals[i].getBoundingClientRect().top
+        console.log(windowHeigh)
+        var revealPoint = 10
+
+        if(revealTop < windowHeigh - revealPoint){
+            reveals[i].classList.add(`active`)
+        }else{
+            reveals[i].classList.remove(`active`)
+        }
+    }
+}
 
 item.addEventListener('wheel', event => {
 
