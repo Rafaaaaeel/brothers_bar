@@ -48,6 +48,9 @@
     transition: 0.3s ease;
     transition-property: transform;
     -webkit-transition-property: transform;
+    background-image: url("../img/popup.jpg");
+    background-position: center;
+    background-size:cover;
 }
 
 .popupActive{
