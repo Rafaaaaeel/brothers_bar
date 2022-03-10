@@ -51,7 +51,7 @@ section
 .container
 {
     width: 350px;
-    display: inline-block;
+    display: inline-table;
     border-radius: 15px;
     margin-bottom: 8%;
     box-shadow: 0em 0.3em 0.4em 0.1em rgb(238, 238, 238);
@@ -73,7 +73,7 @@ section
 .close_button
 {
     position: absolute;
-    width: 25px;
+    width: 20px;
     margin-top: 6.5%;
     margin-left: 30%;
     transform: rotate(0.5turn);
@@ -93,16 +93,19 @@ h4
 table
 {
     transition: 0.2s ease-in-out;
-    width: 100%;
-    margin-left: 2%;
+    width: 80%;
     text-align: left;  
+    margin-left: 10%;
+
 }
 
 table tr td
 {
-    margin-left: 1%;
     margin-top: 2%;
-    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.027);
+    display: flex;
+    justify-content:space-between;
+    
 }
 
 #line{
