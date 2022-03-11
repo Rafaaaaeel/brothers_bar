@@ -78,6 +78,12 @@ section
     opacity: 0.3;
     overflow-y: hidden;
 }
+
+.reveal:nth-child(1){
+    opacity: 1;
+    transform: translateY(0px);
+}
+
 .active{
     transform: translateY(0px);
     opacity: 1;
