@@ -88,6 +88,7 @@ section
 
 .container_title
 {
+    width: 100%;
     color: white;
     border-radius: 7px;
     background-color: rgb(34, 34, 34);
@@ -101,9 +102,11 @@ section
 .arrow-btn
 {
     position: absolute;
+    display: block;
+    z-index: 1;
     width: 20px;
-    margin-top: 6.5%;
-    margin-left: 30%;
+    margin-left: 90%;
+    margin-top: 4%;
     transform: rotate(0.5turn);
     -webkit-transform: rotate(0.5turn);
     transition: cubic-bezier(0, 1.41, 1, 1.02) 0.16s ;
@@ -187,6 +190,14 @@ footer p
         width: 90px;
     }
 
+    .sticky{
+        height: 50px;
+        transition: 0.5s ease;
+    }
+    .sticky img{
+        width: 40px;
+    }
+
     .container
     {
         width: 320px;
@@ -198,6 +209,14 @@ footer p
     
     .header_content img{
         width: 80px;
+    }
+
+    .sticky{
+        height: 50px;
+        transition: 0.5s ease;
+    }
+    .sticky img{
+        width: 40px;
     }
 
     .container
