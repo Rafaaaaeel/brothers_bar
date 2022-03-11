@@ -25,6 +25,7 @@
 .sticky{
     height: 50px;
     transition: 0.5s ease;
+    opacity: 0.97;
 }
 .sticky img{
     width: 40px;
