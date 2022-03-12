@@ -18,7 +18,7 @@ let date = new Date()
 let hour = date.getHours()
 
 console.log(hour)
-if(hour > 0){
+if(hour < 12){
     popupScreen.style.display = "flex"
 }else{
     popupScreen.style.display = "none"
