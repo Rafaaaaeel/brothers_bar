@@ -17,6 +17,9 @@ const popupCookie = document.cookie.valueOf("popUpShow")
 let date = new Date()
 let hour = date.getHours()
 
+popupScreen.style.display = "none"
+
+/*
 console.log(hour)
 if(hour < 12){
     popupScreen.style.display = "flex"
@@ -25,11 +28,12 @@ if(hour < 12){
     document.cookie = "BaileDoAugusto=popUpShow; max-age=" + 1 * 30 * 1000
 }
 
+
 if(popupCookie == "BaileDoAugusto=popUpShow"){
     popupScreen.style.display = "none"
 }
 
-
+*/
 
 
 
