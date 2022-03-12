@@ -18,11 +18,11 @@ let date = new Date()
 let hour = date.getHours()
 
 console.log(hour)
-if(hour < 0){
+if(hour > 0){
     popupScreen.style.display = "flex"
 }else{
     popupScreen.style.display = "none"
-    document.cookie = "BaileDoAugusto=popUpShow; max-age=" + 1 * 30 * 600
+    document.cookie = "BaileDoAugusto=popUpShow; max-age=" + 1 * 30 * 1000
 }
 
 if(popupCookie == "BaileDoAugusto=popUpShow"){
