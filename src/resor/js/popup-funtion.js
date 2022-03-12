@@ -17,8 +17,8 @@ const popupCookie = document.cookie.valueOf("popUpShow")
 let date = new Date()
 let hour = date.getHours()
 
-
-if(hour < 24){
+console.log(hour)
+if(hour < 0){
     popupScreen.style.display = "flex"
 }else{
     popupScreen.style.display = "none"
