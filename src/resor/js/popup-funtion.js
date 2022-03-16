@@ -17,7 +17,7 @@ const popupCookie = document.cookie.valueOf("popUpShow")
 let date = new Date()
 let hour = date.getHours()
 
-popupScreen.style.display = "none"
+
 
 /*
 console.log(hour)
@@ -34,7 +34,3 @@ if(popupCookie == "BaileDoAugusto=popUpShow"){
 }
 
 */
-
-
-
-
