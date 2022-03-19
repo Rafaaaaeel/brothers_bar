@@ -4,7 +4,7 @@ const closebtn = document.querySelector(".close-popup")
 window.addEventListener("load", () =>{
     setTimeout(()=>{
         popupScreen.classList.add("popupActive") 
-    }, 500)
+    }, 1000)
 })
 
 closebtn.addEventListener("click", ()=>{
