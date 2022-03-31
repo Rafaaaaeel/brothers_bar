@@ -55,7 +55,6 @@ section
     margin-right: 3%;
     margin-left: 3% ;
     overflow-y: hidden;
-
 }
 .container
 {
@@ -67,8 +66,6 @@ section
     position: static;
     transition: 0.3s cubic-bezier(0.86, -0.01, 0.82, 0.99);
     overflow-y: hidden;
-
-    
 }
 
 /* Container fade in-out effect */
@@ -100,11 +97,7 @@ section
     background-color: rgb(34, 34, 34);
     
 }
-.container_content
-{
-    background-color: rgb(255, 255, 255);
 
-}
 .arrow-btn
 {
     position: absolute;
@@ -129,7 +122,6 @@ h4
 
 table
 {
-    transition: 0.2s ease-in-out;
     width: 80%;
     text-align: left;  
     margin-left: 10%;
