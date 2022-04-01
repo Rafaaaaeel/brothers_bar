@@ -62,7 +62,7 @@ section
     display: inline-table;
     border-radius: 15px;
     margin-bottom: 8%;
-    box-shadow: 0em 0.3em 0.4em 0.1em rgb(238, 238, 238);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     position: static;
     transition: 0.3s cubic-bezier(0.86, -0.01, 0.82, 0.99);
     overflow-y: hidden;
@@ -72,7 +72,7 @@ section
 
 .reveal{
     transform: translateY(10px);
-    opacity: 0.3;
+    opacity: 0.2;
     overflow-y: hidden;
 }
 
@@ -131,18 +131,24 @@ table
 table tr td
 {
     margin-top: 2%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.027);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.116);
     display: flex;
     display: -webkit-flex;
     justify-content:space-between;
     
 }
 
+td:nth-last-child(1){
+    border-bottom: 0px;
+}
+
+/* When I have another kind of itens inside the "Diversos" category */
 #line{
     margin-left: 2%;
     width: 90%;
     display: inline-block;
 }
+/*--------------*/
 
 p
 {
@@ -154,7 +160,7 @@ p
 span
 {
     margin-left: 10px;
-    color: red;
+    color: rgb(49, 49, 49);
 }
 footer{
     height: 140px;
