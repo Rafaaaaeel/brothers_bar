@@ -2,7 +2,6 @@
 const containerClickZone = document.querySelectorAll(".container")
 const table = document.querySelectorAll("table")
 
-const express = require("express")
 
 table.forEach((e)=>
 {
