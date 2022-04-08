@@ -32,5 +32,4 @@ if(hour < 12){
 if(popupCookie == "BaileDoAugusto=popUpShow"){
     popupScreen.style.display = "none"
 }
-
 */
