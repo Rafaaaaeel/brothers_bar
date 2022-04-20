@@ -46,7 +46,7 @@
     width: 60px;
     top: 5px;
     right: 5px;
-    transition: 0.3s ease;
+    transition: 0.4s ease;
     transition-property: opacity;
     -webkit-transition-property: opacity;
 }
