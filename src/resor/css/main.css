@@ -26,7 +26,12 @@
     margin-left: 22%;
 }
 
-.container:nth-child(6) td:nth-child(1){
+.container:nth-child(1) td:nth-child(1){
+    
+    border-bottom: 0px;
+}
+
+.container:nth-child(1) td:nth-child(3){
     
     border-bottom: 0px;
 }
