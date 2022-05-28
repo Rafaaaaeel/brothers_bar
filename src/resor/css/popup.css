@@ -27,7 +27,7 @@
     transition: 0.3s ease;
     transition-property: transform;
     -webkit-transition-property: transform;
-    background-image: url("../img/popup/gin-popup-bom.jpg");
+    background-image: url("../img/popup/festa.jpeg");
     background-position: center;
     background-size:cover;
 }
