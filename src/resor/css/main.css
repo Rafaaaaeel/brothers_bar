@@ -128,9 +128,9 @@ h4
 
 table
 {
-    width: 80%;
+    width: 90%;
     text-align: left;  
-    margin-left: 10%;
+    margin-left: 5%;
 
 }
 
@@ -147,6 +147,9 @@ table tr td
 td:nth-last-child(1){
     border-bottom: 0px;
 }
+
+
+
 
 /* When I have another kind of itens inside the "Diversos" category */
 #line{
