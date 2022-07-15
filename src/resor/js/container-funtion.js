@@ -12,7 +12,7 @@ containerClickZone.forEach((e)=> {
     e.addEventListener("click", ()=>
     {
         e.querySelector("table").style.display = e.querySelector("table").style.display === "none" ? 'table' : 'none'
-        
+    
         if(navigator.userAgent.match("Safari"))
         {
             e.querySelector(".arrow-btn").style.WebkitTransform = e.querySelector(".arrow-btn").style.WebkitTransform === "rotate(0deg)" ? "rotate(180deg)" : "rotate(0)"    
